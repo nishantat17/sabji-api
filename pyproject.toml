@@ -1,7 +1,7 @@
 [project]
 name = "sabji-api"
 version = "0.1.0"
-description = "Add your description here"
+description = "A unified platform to buy and sell vegetables."
 readme = "README.md"
 authors = [
     { name = "Nishant Bhagat", email = "nishant17bhagat@outlook.com" }
@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "fastapi[standard]>=0.163.1",
+    "scalar-fastapi>=1.9.3",
 ]
 
 [project.scripts]
